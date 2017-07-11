@@ -1,1 +1,1 @@
-An example of squares bouncing off of each other.
+An example of squares bouncing off of each other: written in JavaScript.
