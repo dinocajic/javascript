@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+    margin: 5% auto;
+    width: 600px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#main {
+    margin: auto;
+    width:400px;
+    height:400px;
+    position: relative;
+}
+
+.tile {
+    width:96px;
+    height:96px;
+    float: left;
+    text-align: center;
+    border: 2px black solid;
+    vertical-align: middle;
+    font-size: 32px;
+    font-family: sans-serif;
+    line-height: 100px;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+}
+
+button, select {
+    display: block;
+    margin: 10px auto;
+}
+
+img {
+    height: 30px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    border:0;
+}
+
+.super-mario { background: url("super-mario.jpg"); }
+.luigi       { background: url("luigi.jpg");       }
+.bowser      { background: url("bowser.jpg");      }
+.toad        { background: url("toad.jpg");        }
+
+#one      { background-position: 0      0;      }
+#two      { background-position: -100px 0;      }
+#three    { background-position: -200px 0;      }
+#four     { background-position: -300px 0;      }
+#five     { background-position: 0      -100px; }
+#six      { background-position: -100px -100px; }
+#seven    { background-position: -200px -100px; }
+#eight    { background-position: -300px -100px; }
+#nine     { background-position: 0      -200px; }
+#ten      { background-position: -100px -200px; }
+#eleven   { background-position: -200px -200px; }
+#twelve   { background-position: -300px -200px; }
+#thirteen { background-position: 0      -300px; }
+#fourteen { background-position: -100px -300px; }
+#fifteen  { background-position: -200px -300px; }
+#sixteen  { border: 2px solid white !important; }
+
+.clickable {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.clickable:hover {
+    border-color: red !important;
+    text-decoration: underline !important;
+    color: #006600;
+    cursor: pointer;
+}
+
+#win {
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+#win img {
+    float: none !important;
+    height: 100% !important;
+}
+
+.animate-up {
+    -webkit-transform: translate(0, -100px);
+    -moz-transform: translate(0, -100px);
+    -ms-transform: translate(0, -100px);
+    -o-transform: translate(0, -100px);
+    transform: translate(0, -100px);
+}
+
+.animate-down {
+    -webkit-transform: translate(0, 100px);
+    -moz-transform: translate(0, 100px);
+    -ms-transform: translate(0, 100px);
+    -o-transform: translate(0, 100px);
+    transform: translate(0, 100px);
+}
+
+.animate-left {
+    -webkit-transform: translate(-100px, 0);
+    -moz-transform: translate(-100px, 0);
+    -ms-transform: translate(-100px, 0);
+    -o-transform: translate(-100px, 0);
+    transform: translate(-100px, 0);
+}
+
+.animate-right {
+    -webkit-transform: translate(100px, 0);
+    -moz-transform: translate(100px, 0);
+    -ms-transform: translate(100px, 0);
+    -o-transform: translate(100px, 0);
+    transform: translate(100px, 0);
+}
