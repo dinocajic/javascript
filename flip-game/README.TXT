@@ -12,7 +12,7 @@ Use JavaScript to create a guessing (flip) game.
 - Images must finish animation before user can continue
 - Game should be timed: 120 seconds for 8 photos, 150 seconds for 10 photos and 180 seconds for 12 photos
 
-<img src='http://dinocajic.xyz/projects/flip-game/demo_images/1.PNG'>
-<img src='http://dinocajic.xyz/projects/flip-game/demo_images/2.PNG'>
-<img src='http://dinocajic.xyz/projects/flip-game/demo_images/3.PNG'>
-<img src='http://dinocajic.xyz/projects/flip-game/demo_images/4.PNG'>
+![Demo 1](http://dinocajic.xyz/projects/flip-game/demo_images/1.PNG)
+![Demo 2](http://dinocajic.xyz/projects/flip-game/demo_images/2.PNG)
+![Demo 3](http://dinocajic.xyz/projects/flip-game/demo_images/3.PNG)
+![Demo 4](http://dinocajic.xyz/projects/flip-game/demo_images/4.PNG)
