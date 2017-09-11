@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Dino Cajic
+
+- User selects the number of images to be displayed in game: 8, 10, 12
+- User selects the difficulty level: Hard (3 seconds), Medium (5 seconds), Easy (8 seconds) to memorize before images hidden
+- Table with 8, 10 or 12 images is displayed (2 of each: so 16, 20, or 24)
+- Images need to be distributed randomly
+- Have start button to start
+- Provide user with guidelines on how to play
+- User matches each image with its copy
+- If wrong, images are flipped back around
+- If not wrong, they're left flipped
+- Images must finish animation before user can continue
+- Game should be timed: 120 seconds for 8 photos, 150 seconds for 10 photos and 180 seconds for 12 photos
+
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Flip Game</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="nav-header">
+        <div class="left">Guessing Game</div>
+    </div>
+
+    <div id="content">
+        <h3>Select the number of unique images</h3>
+        <h4>Click the button when ready to play or restart a new game. You must match all of the images before the time runs out.</h4>
+        <div id="won"></div>
+
+        <select name="num_of_images" id="num_of_images">
+            <option value="0">- Tile Count -</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+        </select>
+
+        <select name="difficulty" id="difficulty">
+            <option value="0">- Difficulty -</option>
+            <option value="8">Easy</option>
+            <option value="5">Medium</option>
+            <option value="3">Hard</option>
+        </select>
+
+        <span id="submit_button">
+            <input type="submit" value="Start" name="start" id="start" onclick="initializeGame()" />
+        </span>
+
+        <span id="timer">#</span>
+
+        <div id="board"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+/*
+@author: Dino Cajic
+*/
+
+body, html {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#clock {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+select, #start, #timer {
+    font-size: 30px;
+}
+
+#boardgame, #boardgame tr, #boardgame td {
+    padding: 0 !important;
+    background-color: #4A4E4D !important;
+    margin: 10px auto;
+    border: 2px black solid !important;
+}
+
+.images {
+    position: relative;
+}
+
+.overlay {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    transition: .5s ease;
+    background-color: #008CBA;
+    opacity: 1;
+}
+
+/* Start program1.html css */
+div#nav-header {
+    margin: 0;
+    padding: 20px;
+    width: 97.5%;
+    height: 45px;
+    background-color: #111111;
+    text-transform: uppercase;
+}
+
+div#nav-header > div {
+    color: #FFFFFF;
+}
+
+div#nav-header > div > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.left {
+    float: left;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#content {
+    text-align: center;
+}
+
+#content > h3 {
+    text-align: center;
+}
+
+#content > p > img {
+    width: 100%;
+}
+
+#content > img {
+    width: 24%;
+    display: inline-block;
+}
+
+li > span {
+    font-weight: bold;
+}
+
+h2 {
+    clear: both;
+    padding: 10px;
+    background-color: #F0F0F0;
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+form {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+thead {
+    background-color: #4A4E4D;
+    color: #F0F0F0;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #bdc3c7;
+}
+
+tbody tr:last-child {
+    background-color: #4A4E4D;
+    color: #F0F0F0;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
+    text-align: left;
+    width: 150px;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+    width: 50px;
+}
